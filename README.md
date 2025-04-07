@@ -25,9 +25,11 @@ Everyone wants a ride, pulls away, ooh, from you
 
 
 # technical overview
-
+CSS animation of lyrics from the song Black Sheep.
 ###
 
 # acknowledgment
+Black Sheep 
 
+Song by: Metric 2010
 ###
