@@ -1,0 +1,63 @@
+.ill-send-you {
+    position: absolute;
+    top: 24vh;
+    width: 100%;
+    z-index: 100;
+
+    animation: slide-in 1.6s linear 0s 1 normal none;
+}
+.my-love {
+    position: absolute;
+    top: 34vh;
+    animation: slide-in 1.8s linear 0s 1 normal none;
+    width: 100%;
+    z-index: 100;
+
+}
+
+.on-a {
+    position: absolute;
+    top: 44vh;
+    left: 40vw;
+    z-index: 100;
+
+    display:inline-block;
+    animation: slide-in 2s linear 0s 1 normal none;
+
+}
+.wire {
+    position: absolute;
+    top: 44vh;
+    display:inline-block;
+    z-index: 100;
+    animation: slide-in 2s linear 0s 1 normal none;
+}
+.wire>a {
+    color: yellow;
+    text-decoration: none;
+}
+
+.line1 {
+    position: absolute;
+    width: 100%;
+    top: 28vh;
+    opacity: 0.5;
+}
+
+.line2 {
+    position: absolute;
+    width: 100%;
+    top: 38vh;
+    left:0;
+    opacity: 0.5;
+
+}
+
+.line3 {
+    position: absolute;
+    width: 100%;
+    top: 48vh;
+    left:0;
+    opacity: 0.5;
+
+}

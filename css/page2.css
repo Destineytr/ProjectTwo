@@ -1,0 +1,27 @@
+
+.was-waiting {
+    animation: slide-in 2s linear 0s 1 normal none;
+    margin-top: 3vh
+}
+.world {
+    display:inline-block;
+    margin: 10px;
+    color:aqua;
+    animation: orbit 2s linear 2s 1 normal none;
+    margin-top: 3vh
+
+}
+.to {
+    display:inline-block;
+}
+.end {
+    display:inline-block;
+    margin: 10px;
+    animation: bounce-in 2s linear 4s 1 normal none;
+}
+
+.end>a {
+    text-decoration: none;
+    color: yellow;
+
+}

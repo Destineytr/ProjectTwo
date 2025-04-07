@@ -1,0 +1,18 @@
+.that-you-can {
+    display:inline-block;
+}
+
+.bend {
+    display:inline-block;
+    animation: bend 2s linear 1s 1 normal none;
+}
+
+.bend>a {
+    text-decoration: none;
+    color:yellow
+}
+
+.is-just-a-rule {
+    animation: slide-fade-top 2s linear 0s 1 normal none;
+
+}

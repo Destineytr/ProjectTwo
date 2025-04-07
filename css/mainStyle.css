@@ -1,0 +1,21 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    font-family: "VT323", monospace;
+    font-size: 5vw;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: red;
+    color: white;
+}
+
+.container {
+    margin-top: 20vh;
+    margin-bottom: 200px;
+    animation: fade-in 1s linear 0s 1 normal none;
+}

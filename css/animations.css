@@ -1,0 +1,184 @@
+@keyframes fade-in {		
+	0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+@keyframes slide-fade-top {		
+    0% {
+        transform:rotateX(-100deg);
+        transform-origin:top;
+    }
+    100% {
+        transform:rotateX(0deg);
+        transform-origin:top;
+    }
+}
+
+@keyframes rotate-cw {		
+    0% {
+    }
+    100% {
+        transform:rotate(180deg);
+    }
+}
+
+@keyframes rotate-ccw {		
+    0% {
+    }
+    100% {
+        transform:rotate(-180deg);
+    }
+}
+
+@keyframes jiggle {		
+    0% {
+        transform:rotate(0deg);
+    }
+    10% {
+        transform:rotate(8deg);
+    }
+    20% {
+        transform:rotate(-10deg);
+    }
+    30% {
+        transform:rotate(10deg);
+    }
+    40% {
+        transform:rotate(-10deg);
+    }
+    50% {
+        transform:rotate(10deg);
+    }
+    60% {
+        transform:rotate(-10deg);
+    }
+    70% {
+        transform:rotate(10deg);
+    }
+    80% {
+        transform:rotate(-8deg);
+    }
+    90% {
+        transform:rotate(8deg);
+    }
+    100% {
+        transform:rotate(0deg);
+    }
+}
+
+@keyframes bounce-in {
+        
+    0% {
+        transform:scale(1);
+    }
+    20% {
+        transform:scale(7);
+    }
+    60% {
+        transform:scale(1);	
+    }
+    80% {
+        transform:scale(1.24);
+    }
+    90% {
+        transform:scale(1.04);
+    }
+    100% {
+        transform:scale(1);
+    }
+}
+
+@keyframes slide-in {
+    0% {
+        transform:translateX(-1000px);
+    }
+    100% {
+        transform:translateY(0) translateX(0);
+    }
+}
+
+@keyframes orbit {
+        
+    0% {
+        transform:rotateY(0);
+    }
+    100% {
+        transform:rotateY(360deg);
+    }
+}
+
+@keyframes bend {
+    0% {
+        transform: skew(0deg,0deg);
+    }
+    25% {
+        transform: skew(-20deg,-20deg);
+    }
+    75% {
+        transform: skew(20deg,20deg);
+    }
+    100% {
+        transform: skew(0deg,0deg);
+    }
+}
+
+@keyframes whip {
+    0% {
+        transform:translateX(0px);
+    }
+    25% {
+        transform:translateX(-100px) scaleX(4);
+        
+    }
+    60% {
+        transform:translateX(500px) scaleX(4);
+    }
+    75% {
+        transform:translateX(8px);
+    }
+    100% {
+        transform:translateX(0);
+
+    }
+}
+
+@keyframes flicker {
+			
+    0% {
+        opacity:0;
+    }
+    10% {
+        opacity:1;
+    }
+    20% {
+        opacity:0;
+    }
+    30% {
+        opacity:1;
+    }
+    40% {
+        opacity:0;
+    }
+    50% {
+        opacity:1;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@keyframes rotate-90{
+			
+    0% {
+        transform:rotateY(90deg);
+    }
+    95% {
+        transform:rotateY(90deg);
+    }
+    100% {
+        transform:rotateY(0);
+    }
+}

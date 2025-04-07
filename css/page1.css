@@ -1,0 +1,20 @@
+.hello-again {
+    animation: slide-fade-top 1s linear 0s 1 normal none;
+    transition:1s;
+
+}
+
+.friend {
+    animation: rotate-cw 1s linear 1s 1 normal none;
+}
+
+.friend-inner {
+    animation: rotate-ccw 1s linear 1s 1 normal none;
+}
+
+.when {
+    color: yellow;
+    display:inline-block;
+    animation: jiggle 1s linear 2.5s 1 normal none;
+    text-decoration: none;
+}
